@@ -13,6 +13,30 @@ The package keeps the pet compact and readable for Codex:
 
 ## Install
 
+The simplest way is to send this repository URL to Codex and ask:
+
+```text
+Install this Codex pet from https://github.com/semicircler/codexpet-Oberon
+```
+
+Codex can clone the repository and copy `pet.json` plus `spritesheet.webp` into the local custom pet folder.
+
+For manual installation, clone or download this repository, then run one of:
+
+Windows PowerShell:
+
+```powershell
+.\install.ps1
+```
+
+macOS/Linux:
+
+```bash
+./install.sh
+```
+
+Or copy the files manually:
+
 Copy `pet.json` and `spritesheet.webp` into a Codex custom pet folder:
 
 ```text
@@ -29,6 +53,8 @@ C:\Users\Semicircler\.codex\pets\oberon
 
 - `pet.json` - Codex pet manifest
 - `spritesheet.webp` - final 1536x1872 RGBA pet spritesheet
+- `install.ps1` - Windows installer
+- `install.sh` - macOS/Linux installer
 - `qa/contact-sheet.png` - row-by-row visual QA sheet
 - `qa/review.json` - frame extraction and row QA result
 - `qa/validation.json` - final atlas validation result
